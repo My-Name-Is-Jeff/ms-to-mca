@@ -5,6 +5,8 @@ plugins {
 
     // Documentation generator.
     id("org.jetbrains.dokka")
+    
+    `maven-publish`
 }
 
 group = "me.nullicorn"
